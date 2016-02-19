@@ -9,7 +9,7 @@
 	height: 60px;
 	float: left;
 	padding-top: 10px;
-	margin-left: 380px;
+	margin-left: 18%;
 }
 .logo a:before {
     display: inline-block;
@@ -20,7 +20,7 @@
 	height: 60px;
 	float: right;
 	padding-top: 10px;
-	margin-right: 380px;
+	margin-right: 18%;
 }
 .nav-tip{
 	display: inline-block;

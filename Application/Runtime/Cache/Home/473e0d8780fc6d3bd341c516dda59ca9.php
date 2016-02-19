@@ -8,8 +8,14 @@
 <link type="text/css" rel="stylesheet"
 	href="../../../Public/Css/User/login.css">
 <link>
+<script type="text/javascript" src="../../../Public/Js/Plugin/Jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="../../../Public/Js/Home/User/index.js"></script>
 </head>
 <body  scroll="no">
+<!-- 加载进度条 -->
+<div id="progress" style="width: 100%;" >
+    <span></span>
+</div>
 <!DOCTYPE html>
 <html>
 <head>
@@ -210,34 +216,63 @@
 <hr/>
 	    <div class="row">
 	    	<div class="case">
-	    	<span class="row-title">成功案例</span>
-	    	     <div class="case-list">
-	    	              <div class="col-md-4">
-	    		            <img src="../../../Public/Images/Home/case1.jpg" alt="龙光岗石" class="img-circle">
-	    		             <span class="case-name">龙光岗石</span>
-	    		          </div>
-	    		            <div class="col-md-4">
+	    	<span class="row-title">成功案例</span> 
+	    	    <ul class="case-box">
+                          <li class="case-item jsIconItem" nane="1">
+	    		            <img src="../../../Public/Images/Home/case-v1.jpg" alt="小新" class="img-circle">
+	    		             <span class="case-name">小新校园公众号</span>
+	    		          </li>
+                          <li class=" case-item jsIconItem" name="2">
 	    		           <img src="../../../Public/Images/Home/case1.jpg" alt="龙光岗石" class="img-circle">
 	    		           <span class="case-name" >龙光岗石</span>
-	    		           </div>
-                        <div class="col-md-4">
-	    		         <img src="../../../Public/Images/Home/case1.jpg" alt="龙光岗石" class="img-circle">
-	    		            <span class="case-name" >龙光岗石</span>
-	    		         </div>
-	    		</div>
-
+	    		           </li>
+                          <li class="case-item jsIconItem" name="3">
+	    		          <img src="../../../Public/Images/Home/case-v1.jpg" alt="小新" class="img-circle">
+                             <span class="case-name">小新校园公众号</span>
+                            </li>
+                          <li class="case-item jsIconItem" name="4">
+                         <img src="../../../Public/Images/Home/case1.jpg" alt="龙光岗石" class="img-circle">
+                            <span class="case-name" >龙光岗石</span>
+                        </li>
+                          <li class="case-item jsIconItem" name="5"> 
+                          <img src="../../../Public/Images/Home/case-v1.jpg" alt="小新" class="img-circle">
+                             <span class="case-name">小新校园公众号</span>
+     
+                        </li>
+	    		 </ul>
 	    	</div>
 	    </div>
 	    <div class="case-group">
-	    	  <div class="case-img">
-	    	  	
-	    	  </div>
-	    	   <div class="case-img">
-	    	  	
-	    	  </div>
-	    	   <div class="case-dec">
-	    	  	
-	    	  </div>
+	    	  <div  name='1' id="imgshow">
+	    	  	<img class='case-img' src="../../../Public/Images/Home/case-img1.png">
+                <img class='case-img' src="../../../Public/Images/Home/case-img2.png">
+	    	  	<span>小新校园公众号，服务于广大师生</span>
+              </div>
+
+                  <div  name='2' id="imgshow">
+                <img class='case-img' src="../../../Public/Images/Home/case-img3.png">
+                <img class='case-img' src="../../../Public/Images/Home/case-img4.png">
+                <span>龙光岗石是一家现代化大型石材企业</span>
+              </div>
+
+                  <div  name='3' id="imgshow">
+                <img class='case-img' src="../../../Public/Images/Home/case-img1.png">
+                <img class='case-img' src="../../../Public/Images/Home/case-img2.png">
+                <span>去去去去</span>
+              </div>
+
+                <div  name='4' id="imgshow">
+                <img class='case-img' src="../../../Public/Images/Home/case-img3.png">
+                <img class='case-img' src="../../../Public/Images/Home/case-img4.png">
+                <span>去去去去</span>
+              </div>
+
+                  <div  name='5' id="imgshow">
+                <img class='case-img' src="../../../Public/Images/Home/case-img1.png">
+                <img class='case-img' src="../../../Public/Images/Home/case-img2.png">
+                <span>去去去去</span>
+              </div>
+
 	    </div>
 </div>
 <!DOCTYPE html>
@@ -257,4 +292,52 @@
 </html>
 	    
 </body>
+<script type="text/javascript">
+      <!--loading条-->
+         $({property: 0}).animate({property: 100}, {
+                duration: 3000,
+                step: function() {
+                    var percentage = Math.round(this.property);
+                    $('#progress').css('width',  percentage+"%");
+                     if(percentage == 100) {
+                         $("#progress").addClass("done");//完成，隐藏进度条
+                     }
+                }
+            });
+</script>
+<script type="text/javascript">
+var len = $(".case-group div").length;
+var i=0;
+function dh(){
+    if(i<len){
+      i=parseInt(i)+1;
+      $(".case-box li[name="+i+"]").css('border',"1px solid green");
+      $(".case-box li[name!="+i+"]").css('border',"1px solid #fff");
+      $(".case-group div[name!="+i+"]").css('display','none');
+      $("[name="+i+"]").css('display','block');
+      
+    }
+    else{
+      i=0;
+    }
+}
+  $(document).ready(function(){
+    $(".case-box .case-item").mouseenter(function(){
+        $(this).css('cursor','pointer');
+        $(".case-box li[date-index!="+$(this).attr('date-index')+"]").children("span").css("background-position","0 -1017px"); 
+        $(this).children("span").css("background-position","0 -1099px");
+        $(".case-group div[name!="+$(this).attr('date-index')+"]").css('display','none');
+        $("[name="+$(this).attr('date-index')+"]").css('display','block');
+        window.clearInterval(time);
+        i = $(this).attr('date-index');
+        
+    });
+    $(".case-box .case-item").mouseleave(function(){
+      $(this).children("span").css("background-position","0 -1017px");
+      time = window.setInterval("dh()",2000);
+     
+    });
+    time = window.setInterval("dh()",2000);
+  })
+</script>
 </html>
