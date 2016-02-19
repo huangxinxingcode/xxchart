@@ -1,0 +1,174 @@
+[ 2016-02-18T09:58:12+08:00 ] ::1 /hxxchat/xxx/1/ewqeq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Ewqeq
+
+[ 2016-02-18T09:58:24+08:00 ] ::1 /hxxchat/xxx/1/%60%60%60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:```
+
+[ 2016-02-18T09:58:31+08:00 ] ::1 /hxxchat/xxx/1/%60%60%60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:```
+
+[ 2016-02-18T09:59:50+08:00 ] ::1 /hxxchat/xxx/1/%60%60%60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:```
+
+[ 2016-02-18T11:14:56+08:00 ] ::1 /hxxchat/xxx/1/Public/css/bootstrap/css/bootstap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:15:04+08:00 ] ::1 /hxxchat/xxx/1/Public/css/Home/User/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:16:41+08:00 ] ::1 /hxxchat/xxx/1/Public/css/bootstrap/css/bootstap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:20:04+08:00 ] ::1 /hxxchat/xxx/1/Public/bootstrap/css/bootstap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:20:04+08:00 ] ::1 /hxxchat/xxx/1/Public/css/Home/User/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:20:09+08:00 ] ::1 /hxxchat/xxx/1/Public/css/bootstrap/css/bootstap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:20:32+08:00 ] ::1 /hxxchat/xxx/1/Public/bootstrap/css/Public/css/Home/User/login.css%22%3E%3Clink%3E%3C/head%3E%3Cbody%3E%3Cdiv%20%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:20:58+08:00 ] ::1 /hxxchat/xxx/1/Public/bootstrap/css/bootstap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:21:00+08:00 ] ::1 /hxxchat/xxx/1/Public/css/Home/User/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:22:06+08:00 ] ::1 /hxxchat/xxx/1/Public/bootstrap/css/bootstap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:26:49+08:00 ] ::1 /hxxchat/xxx/1/Public/Css/Home/User/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:27:32+08:00 ] ::1 /hxxchat/xxx/1/Public/Css/Home/User/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T11:28:34+08:00 ] ::1 /hxxchat/xxx/1/Public/Css/Home/User/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T12:12:38+08:00 ] ::1 /hxxchat/xxx/1/Public/Imgges/Home/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T12:12:55+08:00 ] ::1 /hxxchat/xxx/1/Public/Css/Imgges/Home/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T12:13:32+08:00 ] ::1 /hxxchat/xxx/1/Public/Css/Imgges/Home/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T12:14:39+08:00 ] ::1 /hxxchat/xxx/1/Public/Css/User/Public/Imgges/Home/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T12:14:59+08:00 ] ::1 /hxxchat/xxx/1/Public/Css/Imgges/Home/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T12:17:11+08:00 ] ::1 /hxxchat/xxx/1/Public/Css/Imgges/Home/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T12:17:50+08:00 ] ::1 /hxxchat/xxx/1/Public/Css/Images/Home/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T16:10:24+08:00 ] ::1 /hxxchat/xxx/1/index.php/Public/Controller/Home/UserController
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T16:10:28+08:00 ] ::1 /hxxchat/xxx/1/index.php/Public/Controller/Home/UserController
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T16:10:55+08:00 ] ::1 /hxxchat/xxx/1/index.php/Public/Controller/Home/UserController
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T16:10:58+08:00 ] ::1 /hxxchat/xxx/1/index.php/Public/Controller/Home/UserController.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-18T16:13:18+08:00 ] ::1 /hxxchat/xxx/1/index.php/Public/Js/Controller/Home/UserController.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
