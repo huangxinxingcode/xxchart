@@ -16,7 +16,7 @@ class HomeController extends Controller {
     function _initialize() {
        $user = A('User');
         if(false === $user->checkLogin()){
-           $this->redirect('User/index');
+          // $this->redirect('User/index');
        }
     }
 

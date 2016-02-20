@@ -20,7 +20,7 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="../../../Public/Css/Common/head-foot.css">
+	<link rel="stylesheet" type="text/css" href="Public/Css/Common/head-foot.css">
 </head>
 <body>
 <div class="head">
@@ -50,16 +50,21 @@
 					<hr>
 					<div class="login">
 						<div class="form-horizontal">
-							<input class='login-text' type='text' placeholder='邮箱/手机'>
-							<input class='login-text' type='text' placeholder="密码">
-							<div class='login-checkbox'>
+                        <div class="login_input">
+                            <i class="glyphicon glyphicon-user icon_login"></i>
+							<input class='login-text' maxlength="40" type='text' placeholder='邮箱/手机'>
+                         </div>
+                        <div class="login_input">   
+                            <i class="glyphicon glyphicon-lock icon_login"></i>
+							<input class='login-text' maxlength="40" type='text' placeholder="密码">
+                        </div>
+                            <div class='login-checkbox'>
 							<span>自动登录</span><input type='checkbox' >
 							</div>
 						<div class="submit-btn">
 									<button type="button" class="btn btn-success btn-lg">登录</button>
 					   </div>
 						</div>
-						<hr>
 						<div class="tip">
 						 <a href="#">忘记密码？</a>
 						 </div>
@@ -72,7 +77,7 @@
 		</div>
 		<div class="col-md-3">
 		   <div class="qrcode">
-			<img src="../../../Public/Images/Home/qrcode.png">
+			<img src="../../../Public/Images/Home/qrcode.jpg">
 			<span class="qrcode-tip">扫描二维码关注小新</span>
 			</div>
 		</div>
@@ -218,23 +223,23 @@
 	    	<div class="case">
 	    	<span class="row-title">成功案例</span> 
 	    	    <ul class="case-box">
-                          <li class="case-item jsIconItem" nane="1">
+                          <li class="case-item jsIconItem" data-index="1">
 	    		            <img src="../../../Public/Images/Home/case-v1.jpg" alt="小新" class="img-circle">
 	    		             <span class="case-name">小新校园公众号</span>
 	    		          </li>
-                          <li class=" case-item jsIconItem" name="2">
+                          <li class=" case-item jsIconItem" data-index="2">
 	    		           <img src="../../../Public/Images/Home/case1.jpg" alt="龙光岗石" class="img-circle">
 	    		           <span class="case-name" >龙光岗石</span>
 	    		           </li>
-                          <li class="case-item jsIconItem" name="3">
+                          <li class="case-item jsIconItem" data-index="3">
 	    		          <img src="../../../Public/Images/Home/case-v1.jpg" alt="小新" class="img-circle">
                              <span class="case-name">小新校园公众号</span>
                             </li>
-                          <li class="case-item jsIconItem" name="4">
+                          <li class="case-item jsIconItem" data-index="4">
                          <img src="../../../Public/Images/Home/case1.jpg" alt="龙光岗石" class="img-circle">
                             <span class="case-name" >龙光岗石</span>
                         </li>
-                          <li class="case-item jsIconItem" name="5"> 
+                          <li class="case-item jsIconItem" data-index="5"> 
                           <img src="../../../Public/Images/Home/case-v1.jpg" alt="小新" class="img-circle">
                              <span class="case-name">小新校园公众号</span>
      
@@ -279,7 +284,7 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="../../../Public/Css/Common/head-foot.css">
+	<link rel="stylesheet" type="text/css" href="Public/Css/Common/head-foot.css">
 </head>
 <body>
 <div class="footer">
@@ -311,8 +316,8 @@ var i=0;
 function dh(){
     if(i<len){
       i=parseInt(i)+1;
-      $(".case-box li[name="+i+"]").css('border',"1px solid green");
-      $(".case-box li[name!="+i+"]").css('border',"1px solid #fff");
+      $(".case-box li[data-index="+i+"]").css('border',"1px solid  #fff");
+      $(".case-box li[data-index!="+i+"]").css('border',"1px solid #f2f2f2");
       $(".case-group div[name!="+i+"]").css('display','none');
       $("[name="+i+"]").css('display','block');
       
@@ -324,12 +329,12 @@ function dh(){
   $(document).ready(function(){
     $(".case-box .case-item").mouseenter(function(){
         $(this).css('cursor','pointer');
-        $(".case-box li[date-index!="+$(this).attr('date-index')+"]").children("span").css("background-position","0 -1017px"); 
+        $(".case-box li[data-index!="+$(this).attr('data-index')+"]").children("span").css("background-position","0 -1017px"); 
         $(this).children("span").css("background-position","0 -1099px");
-        $(".case-group div[name!="+$(this).attr('date-index')+"]").css('display','none');
-        $("[name="+$(this).attr('date-index')+"]").css('display','block');
+        $(".case-group div[name!="+$(this).attr('data--index')+"]").css('display','none');
+        $("[name="+$(this).attr('data-index')+"]").css('display','block');
         window.clearInterval(time);
-        i = $(this).attr('date-index');
+        i = $(this).attr('data-index');
         
     });
     $(".case-box .case-item").mouseleave(function(){

@@ -1,0 +1,17 @@
+body{
+	min-width: 1200px;
+    background: #e7e8eb;
+	margin: 0;
+	padding: 0;
+}
+/*加载进度条*/
+#progress {
+    position: fixed;
+    height: 3px;
+    background: #2fc365;
+    transition: opacity 500ms linear;
+}
+.container{
+   height: 900px;	
+
+}
